@@ -1,0 +1,220 @@
+/* comentario  */
+/*
+:root{
+    --colorFondo: #AD238C;
+    --colorTitulo: rgba(48, 48, 117, 0.688);
+    --colorParrafo: green;
+
+    --tamañoUno: 2.3rem;
+    --tamañoDos: 3.5rem;
+    --tamañoTres: 5rem;   
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* selector de etiqueta 
+p{
+    color: var(--colorParrafo);
+}
+
+#letra {
+    color: brown;
+}
+
+.palabra, a, div, #otroElemento  {
+    font-size: 3vw;
+    color: blueviolet!important;
+}
+
+
+#otroElemento p {
+    color: blue;
+}
+
+span > a{
+    color: blueviolet;
+}
+
+div + p{
+    color: blueviolet;
+}
+
+div ~ p{
+    color: brown;
+}
+
+li, a{
+    font-size: 4rem;
+}
+
+li:first-child, a{
+    color: blue;
+    font-weight: 600;
+}
+
+li:last-child{
+    color: chartreuse;
+    font-weight: 600;
+}
+
+li:nth-child(even){
+    color: rgb(129, 5, 154)!important;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: black;
+}
+
+li:nth-child(odd){
+    color: rgb(16, 153, 221)!important;
+    font-weight: 600;
+    background-color: rgb(85, 83, 83);
+}
+
+a:link{
+    color: brown;
+}
+/*
+div:hover{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 100px;
+   
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:active{
+    color: chocolate;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+p::first-letter{
+    font-size: 5rem;
+}
+
+p::first-line{
+    background-color: brown;
+}
+
+p::selection{
+    background-color: brown;
+}
+
+p::after{
+    content: "****";
+}
+
+p::before{
+    content: "****";
+}
+
+
+div {
+    width: 400px;
+    height: auto;
+    background-color: blue;
+    overflow: auto;
+}
+
+p{
+
+    color: blanchedalmond;
+    font-size: 1.2rem;
+    padding: 10px 20px 30px;
+    margin: 50px 20px 10px 90px;
+    border-color: rgb(56, 2, 81);
+    border-width: 6px 2px 3px 9px;
+    border-style: solid dotted solid double;
+    border: 6px solid #AD238C;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 600px;
+    height: 500px;
+    margin: 60px;
+    background-color: blue;
+    border: 3px solid darkgreen;
+
+}
+
+p{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+}
+
+h1{
+    background-color: rgb(42, 6, 75);
+    color: bisque;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+*/
+
+div{
+    width: 150px;
+    height: 200px;
+    border: 2px solid dark;
+    opacity: 80%;
+    position: absolute;
+    font-size: 5rem;
+}
+
+.c1{
+    background-color: blue;
+    z-index: 50;
+    top: 50px;
+    left: 120px;
+}
+
+.c1:hover{
+    background-color: chocolate;
+    z-index: 2;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+}
+
+.c2{
+    background-color: rgb(187, 10, 151);
+    z-index: 20;
+    top: 70px;
+    left: 70px;
+    display: block;
+    
+}
+
+.c2:hover{
+    transform: rotate(45deg);
+}
+
+.c3{
+    background-color: rgb(39, 134, 5);
+    z-index: 10;
+    top: 40px;
+    left: 40px;
+    visibility: hidden;
+}
